@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, h1, h2, p, ul, li, form, label, input, select, textarea {
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background: linear-gradient(to bottom, #3498db, #e74c3c); /* Blue to Red Gradient */
+    color: #2c3e50;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff; 
+}
+
+a:hover {
+    color: #f0e4d7;
+}
+
+
+header, nav, main, footer {
+    max-width: 1100px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+header h1, footer p {
+    text-align: center;
+    color: #34495e;
+}
+
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(46, 204, 113, 0.8);
+    border-radius: 5px;
+}
+
+nav ul li {
+    flex-grow: 1;
+    text-align: center;
+    border-left: 1px solid #27ae60;
+}
+
+nav ul li:first-child {
+    border-left: none;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px;
+    color: #ffffff;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: rgba(39, 174, 96, 0.8);
+}
+
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #2c3e50; 
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #e74c3c;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fefefe; 
+}
+
+input[type="submit"] {
+    display: inline-block;
+    background-color: #e74c3c;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #c0392b; 
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #2ecc71;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #ecf0f1;
+    color: #34495e;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f9f9f9; 
+}
+
+
+blockquote {
+    border-left: 5px solid #2ecc71; 
+    padding-left: 10px;
+    margin-bottom: 20px;
+    background-color: #ecf0f1; 
+    border-radius: 5px;
+}
+
+blockquote footer {
+    font-size: 0.9em;
+    margin-top: 10px;
+    text-align: right;
+    color: #7f8c8d; 
+}
+
+
+footer {
+    margin-top: 20px;
+    background-color: rgba(52, 73, 94, 0.9);
+    color: #ffffff; 
+    text-align: center;
+    padding: 10px 0;
+    border-top: 5px solid #2ecc71; 
+}
